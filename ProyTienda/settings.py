@@ -33,7 +33,7 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 
 
 
-ALLOWED_HOSTS = ['bck0-simple-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

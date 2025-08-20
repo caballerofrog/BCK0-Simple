@@ -5,3 +5,6 @@ from django.shortcuts import render
 
 def showHome(request):
     return render(request, 'page/index.html')
+
+def showAnimals(request):
+    return render(request, 'page/animal.html')

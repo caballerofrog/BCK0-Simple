@@ -36,8 +36,8 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'whitenoise.runserver_nostatic',  # movido, estagba despues  del statgggicfiles, debe ir antes
     'django.contrib.staticfiles',
+    'whitenoise.runserver_nostatic',  # movido, estagba despues  del statgggicfiles, debe ir antes
     'AppHome'
 ]
 

@@ -140,3 +140,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'AppHome/static')]
 
 
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+print(' * La ruta de staticfiles es:', STATIC_ROOT)

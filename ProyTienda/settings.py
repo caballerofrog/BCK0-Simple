@@ -139,5 +139,5 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'AppHome/static')]
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]  # opcional, si tienes una carpeta global
 
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'/staticfiles/')
 print(' * La ruta de staticfiles es:', STATIC_ROOT)

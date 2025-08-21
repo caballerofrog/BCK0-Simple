@@ -8,3 +8,6 @@ def showHome(request):
 
 def showAnimals(request):
     return render(request, 'page/animal.html')
+
+def showProductos(request):
+    return render(request,"page/producto.html")

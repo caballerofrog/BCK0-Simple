@@ -135,7 +135,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # Esto para el Railway, para que encuntre los elementos staticos
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'AppHome/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'AppHome/static/images')]
 #STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]  # opcional, si tienes una carpeta global
 
 
